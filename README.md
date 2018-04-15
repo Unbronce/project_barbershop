@@ -1,2 +1,2 @@
 # project_barbershop
-created 2 folders 
+folders have created
