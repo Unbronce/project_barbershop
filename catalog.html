@@ -35,19 +35,45 @@
           <fieldset>
             <legend>Производители:</legend>
             <ul>
-              <li class="filter-optional">Baxter of California</li>
-              <li class="filter-optional">Mr Natty</li>
-              <li class="filter-optional">Suavecito</li>
-              <li class="filter-optional">Baxter of California</li>
-              <li class="filter-optional">Baxter of California</li>
-              <li class="filter-optional">Baxter of California</li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" checked>
+                Baxter of California</li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty">
+                Mr Natty</li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" checked>
+                Suavecito</li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz">
+                Malin+Goetz</li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-checkbox"  type="checkbox" name="murrays">
+                Murray's</li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" checked>
+                American Crew</li>
             </ul>
 
           </fieldset>
           <fieldset>
             <legend>Группы товаров:</legend>
-
+            <ul>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving">
+                Бритвенные пренадлежности
+              </li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" checked>
+                Средства для ухода
+              </li>
+              <li class="filter-optional">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories">
+                Аксессуары
+              </li>
+            </ul>
           </fieldset>
+          <button type="submit" class="filter-input button">Показать</button>
         
         </form>
       </section>
