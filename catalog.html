@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
      <nav class="main-navigation">
       <a class="main-header-logo" href="index.html">
@@ -55,11 +57,11 @@
                 <label for="filter-malin-goetz">Malin+Goetz</label> 
               </li>
               <li class="filter-optional">
-                <input class="visually-hidden filter-input filter-input-checkbox"  type="checkbox" name="murrays" id="filter-murrays">
+                <input class="visually-hidden filter-input filter-input-checkbox"  type="checkbox" name="murrays" id="filter-murrays" disabled>
                 <label for="filter-murrays">Murray's</label> 
               </li>
               <li class="filter-optional">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" checked>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-america-crew" checked>
                 <label for="filter-america-crew">American Crew</label> 
               </li>
             </ul>
