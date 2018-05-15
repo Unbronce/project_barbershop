@@ -9,7 +9,7 @@
   </head>
   <body class="inner-page">
     <header class="main-header">
-     <nav class="main-navigation">
+     <nav class="main-navigation container">
       <a class="main-header-logo" href="index.html">
         <img src="img/logo-1.svg" width="111" height="24" alt="Логотип Барбершопа «Бородинский»">
       </a>
@@ -26,7 +26,9 @@
       </nav>
     </header>
     <main class="container">
+      
       <h1 class="page-title">Средства для ухода</h1>
+      
       <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <img src="img/breadcrumbs.svg" width="12" height="12">
@@ -34,6 +36,7 @@
         <img src="img/breadcrumbs.svg" width="12" height="12">
         <li class="breadcrumbs-current">Средства для ухода</li>
       </ul>
+      <div class="catalog-columns">
       <section class="filtres">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -89,7 +92,7 @@
         </form>
       </section>
 
-      <section>
+      <section class="catalog">
         <h2 class="visually-hidden">Список средств для ухода</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
@@ -191,9 +194,11 @@
           <li class="pagination-item"><a href="#">4</a></li>
         </ul>
       </section>
-
+    </div>
     </main>
+
     <footer class="main-footer">
+      <div class="container"></div>
         <p class="footer-contacts">
             Барбершоп «Бородинский»<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, д.19/8<br>
@@ -213,7 +218,9 @@
           <b>Разработано:</b>
           <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
         </p>
-      </footer>  
+      </div>  
+      </footer> 
+       
       <section class="modal modal-form">
           <h2>Личный кабинет</h2>
           <p>Введите свой логин и пароль.</p>
