@@ -361,11 +361,13 @@ a {
 
 /* ----- Сеточные стили ----- */
 
-/*html,
+html,
 body  {
   min-width: 1122px;
-  min-height: 1750px;
+  min-height: 1150px;
 }
+
+/*
 
 body  {
    Верменно для сетки 
@@ -375,6 +377,15 @@ body  {
 }
 
 */
+
+.inner-page {
+  /* Временно для сетки */
+  background-image: url("../img/barbershop-shop.jpg");
+  background-size: 1200px auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
 
 .container  {
   width: 940px;
@@ -389,6 +400,16 @@ body  {
   min-height: 285px;
 }
 
+.inner-page .main-header  {
+  margin-bottom: 50px;
+
+  background-color: #000000;
+
+  /* Временно для сетки */
+  min-height: 70px;
+  background-color: transparent;
+}
+
 .main-navigation  {
   display: flex;
   flex-direction: column;
@@ -399,6 +420,13 @@ body  {
   background-color: transparent;
 }
 
+.inner-page .main-navigation  {
+  align-items: flex-start;
+  flex-direction: row;
+  /* Временно для сетки */
+  min-height: 70px;
+}
+
 .main-header-logo {
   order: 2;
   width: 368px;
@@ -406,6 +434,13 @@ body  {
 
   /* Временно для сетки */
   /* display: block; */
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+  width: 111px;
+  height: 24px;
+  padding: 23px 20px;
 }
 
 .main-navigation-wrapper  {
@@ -443,6 +478,10 @@ body  {
 
   /* Временно для сетки */
   min-height: 70px;
+}
+
+.inner-page .user-navigation  {
+  margin-left: auto;
 }
 
 .features {
@@ -503,6 +542,78 @@ body  {
   min-height: 340px;
 }
 
+.page-title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+
+  /* Временно для сетки */
+  min-height: 42px
+}
+
+.breadcrumbs  {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+
+  /* Временно для сетки */
+  min-height: 24px;
+}
+
+.catalog-columns  {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.filter {
+  width: 180px;
+
+  /* Временно для сетки */
+  min-height: 687px;
+}
+
+.catalog  {
+  width: 700px;
+
+  /* Временно для сетки */
+  min-height: 687px;
+}
+
+/* chekat' tyt */
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px; /* chekat' tyt justify-content: space-between*/
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+
+  list-style: none;
+}
+
+.catalog-item {
+  width: 220px;
+  margin-bottom: 20px;
+
+  /* Временно для сетки */
+  min-height: 285px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px purple;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination-list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  /* Временно для сетки */
+  min-height: 47px;
+}
+
 .main-footer  {
   padding: 60px 0;
   margin-top: 65px;
@@ -511,6 +622,10 @@ body  {
   background: none;
   min-height: 180px;
 
+}
+
+.inner-page .main-footer  {
+  margin-top: 45px;
 }
 
 .main-footer .container {
