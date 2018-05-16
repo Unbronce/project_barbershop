@@ -380,7 +380,7 @@ body  {
 
 .inner-page {
   /* Временно для сетки */
-  background-image: url("../img/barbershop-shop.jpg");
+  background-image: url("../img/barbershop-item.jpg");
   background-size: 1200px auto;
   background-position: top center;
   background-repeat: no-repeat;
@@ -612,6 +612,20 @@ body  {
   list-style: none;
   /* Временно для сетки */
   min-height: 47px;
+}
+
+.product-photos {
+  width: 460px;
+
+  /* Временно для сетки */
+  min-height: 677px;
+}
+
+.product-info {
+  width: 390px;
+
+  /* Временно для сетки */
+  min-height: 667px;
 }
 
 .main-footer  {
